@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #aa43dac2;
+}
+
+header{
+    background-color: #1ea2db;
+}
+header>p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+nav{
+    background-color: #1E6AE6;
+    box-shadow: 4px 2px 3px 0px;;
+}
+header> nav a{
+    background-color: #1E6AE6;
+    padding: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.432);
+    
+}
+
+header> nav a:hover{
+    background-color: #6f9ee9;
+    text-decoration: underline;
+
+}
+
+.apresentacao{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    
+}
+.apresentacao>p{
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    
+}
+.img{
+    display: flexbox;
+    background-image: url(../imagens/pixel-heart.gif);
+    height: 140px;
+    background-size: cover;
+    width: 140px;
+    text-align: center;
+    background-position: center center;
+    margin: auto;
+}
