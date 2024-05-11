@@ -34,6 +34,7 @@ body{
     border-radius: 30px;
     border: 2px solid black;
     box-shadow: 9px 9px black;
+    margin: auto;
 }
 #foto1{
     background-image: url(../assets/images/illustration-article.svg);
