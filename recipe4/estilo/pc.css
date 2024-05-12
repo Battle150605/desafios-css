@@ -3,7 +3,7 @@
 @media screen and (min-width: 900px) {
     body,html{
         background-color: #EADED0;
-        width: 100%;
+        width: 99.99%;
         height: 100%;
     }
     #quadrado{
