@@ -3,9 +3,8 @@
 @media screen and (min-width: 900px) {
     body,html{
         background-color: #EADED0;
-        width: 100vw;
-        height: 100vh;
-        overflow: hidden;
+        width: 100%;
+        height: 100%;
     }
     #quadrado{
         width: 450px;
